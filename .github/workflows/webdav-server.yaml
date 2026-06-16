@@ -32,7 +32,7 @@ jobs:
       - name: Prepare app sources
         run: |
           git clone --branch ${{ env.APP_VERSION }} ${{ env.APP_REPO }} ${{ env.APP_NAME }}
-          sed -i 's%FROM httpd:2.4.67%FROM httpd:2.4.68-trixie%g'
+          sed -i 's%FROM httpd:2.4.67%FROM httpd:2.4.68-trixie%g' ${{ env.APP_NAME }}/Dockerfile
 
       - name: Log into registry ${{ env.REGISTRY }}
         uses: docker/login-action@v3
