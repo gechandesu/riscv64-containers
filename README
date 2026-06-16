@@ -14,4 +14,4 @@ Wishlist:
 - [x] Xandikos https://github.com/jelmer/xandikos
 - [ ] Immich
 - [ ] Jellyfin (probably not possible for now)
-- [ ] WebDAV Server (https://github.com/vaggeliskls/webdav-server)
+- [x] WebDAV Server (https://github.com/vaggeliskls/webdav-server)
