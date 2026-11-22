@@ -6,12 +6,21 @@ Look at https://github.com/gechandesu?tab=packages&repo_name=riscv64-containers 
 
 Wishlist:
 
-- [ ] ArchiveBox
-- [x] Navidrome https://github.com/navidrome/navidrome
-- [ ] slskd
-- [x] Syncthing https://github.com/syncthing/syncthing
-- [ ] Transmission
-- [x] Xandikos https://github.com/jelmer/xandikos
-- [ ] Immich
-- [ ] Jellyfin (probably not possible for now)
+- [x] Syncthing (https://github.com/syncthing/syncthing)
+- [x] Xandikos (https://github.com/jelmer/xandikos)
 - [x] WebDAV Server (https://github.com/vaggeliskls/webdav-server)
+- [x] Navidrome (https://github.com/navidrome/navidrome)
+  Navidrome now has official RISC-V support since (nice!)
+- [ ] ArchiveBox
+- [ ] Transmission
+- [ ] Immich
+
+---
+
+Getting following applications to work on RISC-V is too difficult, so I gave up:
+
+- slskd
+- Jellyfin
+
+There are no good alternatives, but I was at least able to create a partial
+replacement for slskd — https://github.com/gechandesu/miniseekd/pkgs/container/miniseekd
