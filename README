@@ -23,4 +23,4 @@ Getting following applications to work on RISC-V is too difficult, so I gave up:
 - Jellyfin
 
 There are no good alternatives, but I was at least able to create a partial
-replacement for slskd — https://github.com/gechandesu/miniseekd/pkgs/container/miniseekd
+replacement for slskd — https://github.com/gechandesu/nightseekd/pkgs/container/nightseekd
